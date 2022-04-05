@@ -11,6 +11,8 @@
     <template v-else>
       按钮
     </template>
+    <div class="dd">dasdasd</div>
+    <div class="bb">dasdasd</div>
   </button>
 </template>
 <script lang="ts"> export default {name: 'WButton'} </script>
@@ -45,7 +47,15 @@ const buttonDisabled = computed(() => {
 const buttonSize = computed(() => {
   return props.size
 })
-const dd = function () {}
+const dd = function () {
+  console.log('')
+  return 222
+}
+if (true) {
+  console.log(22)
+} else {
+  console.log(555)
+}
 const classs = computed(() => [
   'w-button',
   `w-button--${props.type}`,

@@ -1,5 +1,5 @@
 # w-ui
-
+![Coverage](https://img.shields.io/codecov/c/gh/wuzhongwei/w-ui/branch/master)
 ## Project setup
 ```
 npm install
