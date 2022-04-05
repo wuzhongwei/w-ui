@@ -8,7 +8,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [13.10.0]
+        node-version: [12.10.0]
         os: [ macos-latest, windows-latest]
 
     steps:
