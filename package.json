@@ -1,13 +1,22 @@
 {
-  "name": "w-ui",
-  "version": "0.1.0",
-  "private": true,
+  "name": "w-ui-plus",
+  "version": "1.0.0",
+  "private": false,
+  "author": {
+    "name": "wuzhongwei",
+    "email": "94050803@qq.com"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name w ./src/packages/index.ts --no-clean && vue-cli-service build --all --no-clean",
     "buildasync": "vue-cli-service build --all --no-clean",
     "test": "vue-cli-service test:unit --coverage"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "files": ["dist"],
+  "main": "dist/w.umd.min.js",
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^3.2.13"
