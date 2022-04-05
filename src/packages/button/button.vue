@@ -45,7 +45,7 @@ const buttonDisabled = computed(() => {
 const buttonSize = computed(() => {
   return props.size
 })
-
+const dd = function () {}
 const classs = computed(() => [
   'w-button',
   `w-button--${props.type}`,
