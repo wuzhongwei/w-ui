@@ -1,7 +1,7 @@
 {
   "name": "w-ui-plus",
-  "version": "1.0.1",
-  "private": false,
+  "version": "1.0.3",
+  "description": "Vue3 UI components",
   "author": {
     "name": "wuzhongwei",
     "email": "94050803@qq.com"
@@ -15,6 +15,10 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wuzhongwei/w-ui.git"
   },
   "files": ["dist"],
   "main": "dist/w.umd.min.js",
