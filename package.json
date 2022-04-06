@@ -10,7 +10,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name w ./src/packages/index.ts --no-clean && vue-cli-service build --all --no-clean",
     "buildasync": "vue-cli-service build --all --no-clean",
-    "test": "vue-cli-service test:unit --coverage"
+    "test": "vue-cli-service test:unit --coverage",
+    "prepublishOnly": "npm run build"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
@@ -21,6 +22,7 @@
     "core-js": "^3.8.3",
     "vue": "^3.2.13"
   },
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^27.0.1",
     "@vue/cli-plugin-babel": "~5.0.0",
